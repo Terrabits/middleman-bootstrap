@@ -18,6 +18,7 @@ page '/*.txt', layout: false
 
 # General configuration
 activate :sprockets
+activate :pry
 
 ###
 # Helpers

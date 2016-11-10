@@ -2,11 +2,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap-variables";
 @import "bootstrap";
+@import "navbar";
+@import "unordered-list";
+@import "ordered-list";
 @import "theme";
 
 
 body {
-    // min-height: 2000px;
-    padding-top: 70px;
     padding-bottom: 30px;
 }

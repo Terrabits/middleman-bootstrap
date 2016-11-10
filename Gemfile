@@ -14,3 +14,4 @@ gem 'middleman-sprockets'
 gem 'jquery-middleman'
 gem 'bootstrap-sass', require: false
 gem 'middleman-minify-html'
+gem 'middleman-pry'
