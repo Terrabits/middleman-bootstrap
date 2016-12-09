@@ -11,3 +11,71 @@
 body {
     padding-bottom: 30px;
 }
+
+div#yield {
+  overflow: hidden;
+  &.home {
+    div#home {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    div#page1 {
+      display: none;
+    }
+    div#page2 {
+      display: none;
+    }
+    div#page3 {
+      display: none;
+    }
+  }
+  &.page1 {
+    div#page1 {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    div#home {
+      display: none;
+    }
+    div#page2 {
+      display: none;
+    }
+    div#page3 {
+      display: none;
+    }
+  }
+  &.page2 {
+    div#page2 {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    div#home {
+      display: none;
+    }
+    div#page1 {
+      display: none;
+    }
+    div#page3 {
+      display: none;
+    }
+  }
+  &.page3 {
+    div#page3 {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    div#home {
+      display: none;
+    }
+    div#page1 {
+      display: none;
+    }
+    div#page2 {
+      display: none;
+    }
+  }
+}
