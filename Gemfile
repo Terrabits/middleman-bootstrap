@@ -11,7 +11,6 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman'
 gem 'middleman-sprockets'
-gem 'jquery-middleman'
 gem 'bootstrap-sass', require: false
 gem 'middleman-minify-html'
 gem 'middleman-pry'
